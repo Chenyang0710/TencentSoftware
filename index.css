@@ -1,0 +1,151 @@
+/* 全局样式 */
+body,
+h1,
+h2,
+dl,
+dd,
+ul,
+p{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    list-style: none
+}
+a{
+    color:#01477b; 
+    text-decoration: none
+}
+a:hover{text-decoration: underline}
+span{
+    font-size: 12px;
+    color: #01477b;
+}
+
+/* wrapper样式 */
+.wrapper{
+    width: 910px;
+    margin: 0 auto
+}
+
+.logo {
+    /* border: 1px solid #000; */
+    overflow: hidden;
+    margin: 10px 0
+}
+.logo h1{float: left}
+.logo dl{float: right;}
+.logo h1 a{
+    display:block;
+    width: 217px;
+    height: 63px;
+    background: url(images/logo.gif) no-repeat ;
+    text-indent: -99999px;
+}
+.logo dl dt{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.logo dl dd{
+    font-size: 12px;
+    color: #666
+}
+
+.nav ul{
+    height: 36px;
+    background: url(images/navbg.gif);
+    padding: 0 30px;
+}
+.nav ul li{
+    float: left;
+    padding:0 20px; 
+    text-align: center
+}
+.nav ul li a{
+font-size: 14px;
+margin-top: 4px;
+color: #fff;
+font-weight: bold;
+line-height: 28px;
+}
+.nav ul .active a{
+    color: #333;
+    display: block;
+    width: 88px;
+    background: url(images/home.gif) no-repeat;
+}
+.nav ul .Q_Lab{
+    float: right;
+    margin-right: 0px;
+    background: url(images/arrow_r.gif) left no-repeat
+}
+.nav ul .Q_Lab a{
+    
+}
+
+/* main样式 */
+.main{
+    overflow: hidden;
+}
+.main .main_left{
+    float: left;
+    width: 600px;
+}
+.banner{
+    width: 600px;
+    height: 200px;
+}
+.left .left_top{
+    overflow: hidden;
+    margin: 20px 0 10px;
+    border-bottom: 1px solid #98c5df;
+    padding-bottom: 5px;
+}
+.left .left_top h2{
+    float: left;
+    font-size: 16px; 
+    color: #01477b;
+}
+.left .left_top span{
+    float: right;
+}
+.left ul li{
+    overflow: hidden;
+    margin: 15px 0;
+    background: url(images/icon_1.gif) no-repeat;
+    padding-left:50px
+}
+.left ul li p{
+    font-size: 14px;
+    line-height: 30px
+}
+.left ul li .left_left{
+    float: left
+}
+.left ul li .left_left span{
+    margin-left: 10px;
+}
+.left ul li .left_right{
+    float: right;
+}
+.left ul .two{
+    background: url(images/icon_2.gif) no-repeat;
+}
+.left ul .three{
+    background: url(images/icon_3.gif) no-repeat;
+}
+.left ul .four{
+    background: url(images/icon_4.gif) no-repeat;
+}
+.left ul .five{
+    background: url(images/icon_5.gif) no-repeat;
+}
+.left ul .six{
+    background: url(images/icon_6.gif) no-repeat;
+}
+
+.main_right{
+    float: right;
+    width: 280px;
+}
