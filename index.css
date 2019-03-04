@@ -125,6 +125,7 @@ line-height: 28px;
 }
 .software dt span{
     margin-left: 10px;
+    color: #666;
 }
 .software li > span,
 .sidebar .recommend ul li span{
