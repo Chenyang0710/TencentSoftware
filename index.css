@@ -21,6 +21,13 @@ span{
     font-size: 12px;
     color: #01477b;
 }
+h2{
+    font-size: 16px; 
+    color: #01477b;
+    margin: 20px 0 10px;
+    border-bottom: 1px solid #98c5df;
+    padding-bottom: 5px;
+}
 
 /* wrapper样式 */
 .wrapper{
@@ -88,8 +95,8 @@ line-height: 28px;
     margin-top: 20px;
 }
 
-/* main > main_left */
-.main_left{
+/* main > content */
+.content{
     float: left;
     width: 600px;
 }
@@ -97,116 +104,96 @@ line-height: 28px;
     width: 600px;
     height: 200px;
 }
-.left .left_top,
-.main_right .recommend_top{
-    overflow: hidden;
-    margin: 20px 0 10px;
-    border-bottom: 1px solid #98c5df;
-    padding-bottom: 5px;
-}
-.left .left_top h2,
-.main_right .recommend_top h2{
-    float: left;
-    font-size: 16px; 
-    color: #01477b;
-}
-.left .left_top span,
-.main_right .recommend_top span{
+.software .text span,
+.sidebar .text span{
     float: right;
+    font-weight: normal;
 }
-.left ul li,
-.main_right .recommend ul li{
+.software li,
+.sidebar .recommend ul li {
     overflow: hidden;
     margin: 15px 0;
     background: url(images/icon_1.gif) no-repeat;
     padding-left:50px
 }
-.left ul li p{
+.software dd{
     font-size: 14px;
     line-height: 30px
 }
-.left ul li .left_left{
+.software dl{
     float: left
 }
-.left ul li .left_left span{
+.software dt span{
     margin-left: 10px;
 }
-.left ul li .left_right,
-.main_right .recommend ul li span{
+.software li > span,
+.sidebar .recommend ul li span{
     float: right;
 }
-.left ul li .left_right span:nth-child(1),
-.main_right .recommend ul li span{
+.software .down,
+.sidebar .recommend ul li span{
     background: url(images/downicon.gif) no-repeat;
     padding-left: 14px;
     background-position-y: 4px;
 }
-.left ul .two{
-    background: url(images/icon_2.gif) no-repeat;
-}
-.left ul .three{
-    background: url(images/icon_3.gif) no-repeat;
-}
-.left ul .four{
-    background: url(images/icon_4.gif) no-repeat;
-}
-.left ul .five{
-    background: url(images/icon_5.gif) no-repeat;
-}
-.left ul .six{
-    background: url(images/icon_6.gif) no-repeat;
-}
+.software .sw02{background: url(images/icon_2.gif) no-repeat;}
+.software .sw03{background: url(images/icon_3.gif) no-repeat;}
+.software .sw04{background: url(images/icon_4.gif) no-repeat;}
+.software .sw05{background: url(images/icon_5.gif) no-repeat;}
+.software .sw06{background: url(images/icon_6.gif) no-repeat;}
 
 /* main > main_right */
-.main_right{
+.sidebar{
     float: right;
     width: 280px;
 }
-.main_right .news h2,
-.main_right .cooperation h2{
-    font-size: 16px;
+.sidebar .news h2,
+.sidebar .cooperation h2{
     color: #333;
-    border-bottom: 1px solid #98c5df;
-    margin-bottom: 10px;
-    padding-bottom: 5px
+    margin-top: 0;
 }
-.main_right ul li {
+.sidebar ul li {
     font-size: 12px;
     color: #01477b;
     margin-bottom: 5px;
 }
-.main_right ul li span{
+.sidebar ul li span{
     font-size: 14px;
     font-weight: bold;
     margin-right: 10px;
 }
 
-.main_right .recommend ul li{
+.sidebar .recommend ul li{
     background: url(images/soft_r_1.gif) no-repeat;
     font-size: 12px;
     padding-left: 30px;
 }
-.main_right .recommend ul .two{
+.sidebar .recommend li span{
+    font-weight: normal;
+    font-size: 12px;
+}
+.sidebar .recommend ul .two{
     background: url(images/soft_r_2.gif) no-repeat;
 }
-.main_right .recommend ul .three{
+.sidebar .recommend ul .three{
     background: url(images/soft_r_3.gif) no-repeat;
 }
-.main_right .recommend ul .four{
+.sidebar .recommend ul .four{
     background: url(images/soft_r_4.gif) no-repeat;
 }
-.main_right .recommend ul .five{
+.sidebar .recommend ul .five{
     background: url(images/soft_r_5.gif) no-repeat;
 }
-.main_right .recommend ul .six{
+.sidebar .recommend ul .six{
     background: url(images/soft_r_6.gif) no-repeat;
 }
 
-.main_right .cooperation{
+.sidebar .cooperation{
     margin-top: 20px;
     overflow: hidden;
 }
-.main_right .cooperation ul li{
+.sidebar .cooperation a{
+    font-size: 12px;
     float: left;
     width: 33.3%;
     margin-top: 5px;
